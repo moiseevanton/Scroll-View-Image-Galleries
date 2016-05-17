@@ -13,6 +13,7 @@
 		E93723D71CEA8533005106BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93723D51CEA8533005106BD /* Main.storyboard */; };
 		E93723D91CEA8533005106BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93723D81CEA8533005106BD /* Assets.xcassets */; };
 		E93723DC1CEA8533005106BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93723DA1CEA8533005106BD /* LaunchScreen.storyboard */; };
+		E93723E71CEAA579005106BD /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = E93723E61CEAA579005106BD /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E93723D81CEA8533005106BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E93723DB1CEA8533005106BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E93723DD1CEA8533005106BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93723E51CEAA579005106BD /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		E93723E61CEAA579005106BD /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				E93723DA1CEA8533005106BD /* LaunchScreen.storyboard */,
 				E93723DD1CEA8533005106BD /* Info.plist */,
 				E93723CC1CEA8533005106BD /* Supporting Files */,
+				E93723E51CEAA579005106BD /* ViewController2.h */,
+				E93723E61CEAA579005106BD /* ViewController2.m */,
 			);
 			path = "Scroll View Image Galleries";
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E93723D41CEA8533005106BD /* ViewController.m in Sources */,
+				E93723E71CEAA579005106BD /* ViewController2.m in Sources */,
 				E93723D11CEA8533005106BD /* AppDelegate.m in Sources */,
 				E93723CE1CEA8533005106BD /* main.m in Sources */,
 			);
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Scroll View Image Galleries/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moiseevanton.Scroll-View-Image-Galleries";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Scroll View Image Galleries/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moiseevanton.Scroll-View-Image-Galleries";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +308,7 @@
 				E93723E21CEA8533005106BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewController2.h
 //  Scroll View Image Galleries
 //
 //  Created by Anton Moiseev on 2016-05-16.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController2 : UIViewController
+
+@property (strong, nonatomic) NSString *name;
 
 @end
-
